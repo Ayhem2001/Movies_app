@@ -20,7 +20,71 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:textSize="50sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="128dp"
+                android:layout_marginStart="28dp"
+                android:textStyle="bold"
+                android:text="Log in" />
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:hint="Username"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textColorHint="@color/white"
+                android:ems="10"
+                android:inputType="text"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="128dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                />
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:hint="Password"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textColorHint="@color/white"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forge your password"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:layout_marginTop="16dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button3"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/orange_button_background"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="32dp"
+                android:text="Login"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
