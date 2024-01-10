@@ -17,10 +17,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         
-        initview();
+        initView();
     }
 
-    private void initview() {
+    private void initView() {
         userEdt=findViewById(R.id.editTextText);
         passEdt=findViewById(R.id.editTextText2);
         loginBtn=findViewById(R.id.loginBtn);
