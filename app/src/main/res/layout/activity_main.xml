@@ -54,19 +54,22 @@
 
                 <TextView
                     android:id="@+id/textView2"
+                    android:layout_marginTop="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Discover our "
+                    android:layout_marginBottom="15dp"
                     android:textColor="@color/white"
-                    android:textSize="27sp" />
+                    android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Netflix TN"
+                    android:layout_marginBottom="15dp"
                     android:textColor="@color/orange"
-                    android:textSize="27sp" />
+                    android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -74,7 +77,8 @@
                     android:layout_height="wrap_content"
                     android:text="Don't Think Twice !"
                     android:textColor="@color/white"
-                    android:textSize="27sp" />
+                    android:layout_marginBottom="15dp"
+                    android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView5"
@@ -82,7 +86,7 @@
                     android:layout_height="wrap_content"
                     android:text="You can browse movies , shows by genre , search for specific title,or check out our recommendation for you  "
                     android:textColor="#9F9A9A"
-                    android:textSize="17sp" />
+                    android:textSize="21sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button"
@@ -92,6 +96,7 @@
                     android:layout_marginTop="20dp"
                     android:background="@drawable/orange_button_background"
                     android:text="Get Started"
+                    android:textSize="20sp"
                     android:textColor="@color/white" />
             </LinearLayout>
         </LinearLayout>
